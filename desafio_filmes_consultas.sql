@@ -89,7 +89,7 @@ JOIN FilmesGenero AS FG
 JOIN Generos AS G
   ON FG.IdGenero = G.Id
 WHERE
-  G.Genero = 'Mist�rio';
+  G.Genero = 'Mistério';
 
 -- DESAFIO 12: Listar nome do filme, atores e seus papeis
 SELECT
